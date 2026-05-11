@@ -1,0 +1,31 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#1e1e2f;
+  color:rgb(131, 8, 8);
+}
+
+.menu{
+  background:#111;
+  padding:15px;
+  display:flex;
+  gap:10px;
+  justify-content:center;
+}
+
+.menu button{
+  background:#4CAF50;
+  border:none;
+  padding:10px 20px;
+  border-radius:6px;
+  color:rgb(151, 0, 0);
+  cursor:pointer;
+}
+
+.menu button:hover{
+  background:#3c8c40;
+}
+
+.conteudo{
+  padding:20px;
+}
